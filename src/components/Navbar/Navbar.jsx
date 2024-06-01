@@ -63,14 +63,14 @@ const Navbar = () => {
                   className="flex lg:items-center lg:space-x-5 max-lg:flex-col max-lg:text-[black] max-lg:text-[20px] text-[18px]
                             max-lg:font-medium  max-lg:space-y-6 max-lg:h-auto overflow-y-auto"
                 >
-                  <li className="capitalize font-bold">
+                  <li className="capitalize font-bold hover:text-primary transition-all delay-100 ease-in-out">
                     <Link href="./">
                       <span>
                         <a>Home</a>
                       </span>
                     </Link>
                   </li>
-                  <li className="capitalize font-bold">
+                  <li className="capitalize font-bold hover:text-primary transition-all delay-100 ease-in-out">
                     <Link href="./about">
                       <span>
                         <a>About Us</a>
@@ -94,7 +94,7 @@ const Navbar = () => {
                     </Link>
                   </li> */}
                   <ProjectsNav/>
-                  <li className="capitalize  font-bold">
+                  <li className="capitalize font-bold hover:text-primary transition-all delay-100 ease-in-out">
                     <Link href="./contact">
                       <span>
                         <a>Gallery</a>
