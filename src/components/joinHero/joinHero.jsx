@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 
 const JoinHero = () => {
   return (
@@ -21,7 +22,7 @@ const JoinHero = () => {
               Unleash Possibilities, Create Lasting Impact
             </p>
 
-            <p className="text-[17px] md:text-[22px] mt-7">
+            <p className="text-[17px] md:text-[22px] mt-7 font-poppins">
               At Kachem Young Initiative, we strongly believe in the power of
               collective action to bring about a profound change in the lives of
               people who are in need. By partnering with us through
@@ -38,7 +39,22 @@ const JoinHero = () => {
           <div>
           <h1 className="text-[48px] md:mt-16 mt-16 font-semibold font-poppins text-center text-black leading-tight"> How You Can Join Us </h1>
           </div>
+
+
+          {/* blank area */}
+          <div className="h-[1279px] w-full">
+
+          </div>
+          <div>
+          <p className="text-[17px] md:text-[22px] mt-7  font-poppins">
+         For further enquiry about any form of partnership, please send us an email at <a href="mailto:kachemyounginitiative@gmail.com" target="_blank" className="text-secondary"> kachemyounginitiative@gmail.com</a> 
+            </p>
+          </div>
         </div>
+      </div>
+
+      <div>
+      <Footer/>
       </div>
     </div>
   );

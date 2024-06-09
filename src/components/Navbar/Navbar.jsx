@@ -6,6 +6,9 @@ import Link from "next/link";
 import JoinNav from "./JoinNav";
 import ProjectsNav from "./ProjectsNav";
 
+// framer motion imports
+import { motion } from "framer-motion";
+
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
 
