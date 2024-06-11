@@ -1,5 +1,5 @@
+import FundingHero from '@/components/FundingHero/FundingHero'
 import Navbar from '@/components/Navbar/Navbar'
-import SponsorshipHero from '@/components/SponsorshipHero/SponsorshipHero'
 import React from 'react'
 
 const page = () => {
@@ -11,7 +11,7 @@ const page = () => {
       </div>
     </div>
     <div className='md:pt-[230px] pt-[120px]'>
-      <SponsorshipHero/>
+      <FundingHero/>
     </div>
   </main>
   )

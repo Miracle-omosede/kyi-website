@@ -5,7 +5,7 @@ const SponsorshipHero = () => {
   return (
     <div>
             <div className='flex flex-col'>
-        <div className='md:h-[150px] w-full flex items-center justify-center bg-[#CEE4EA] py-[40px] px-[60px]'>
+        <div className='md:h-[150px] w-full flex items-center justify-center bg-[#CEE4EA] py-[40px] md:px-[60px] px-5'>
             <p className='text-black text-[20px] md:text-[24px] font-semibold text-center font-poppins'>
             In Ebonyi, a significant number of children are out of school due to unaffordable fees and materials,<br className='md:block hidden'/> surpassing those enrolled in any organized education.
             </p>
@@ -22,7 +22,7 @@ const SponsorshipHero = () => {
                 </p>
             </div>
 
-            <form className="max-w-full mx-auto p-4 space-y-4">
+            <form className="max-w-full mx-auto p-4 my-[40px] space-y-4">
       <div>
         <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">
           Full Name
