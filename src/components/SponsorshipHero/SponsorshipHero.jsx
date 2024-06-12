@@ -167,7 +167,7 @@ const SponsorshipHero = () => {
 
     <div>
           <p className="text-[17px] md:text-[22px] mt-7  font-poppins">
-         For further enquiry about any form of partnership, please send us an email at <a href="mailto:kachemyounginitiative@gmail.com" target="_blank" className="text-secondary"> kachemyounginitiative@gmail.com</a> 
+          For further enquiry about sponsorships, please send us an email at<a href="mailto:kachemyounginitiative@gmail.com" target="_blank" className="text-secondary"> kachemyounginitiative@gmail.com</a> 
             </p>
           </div>
         </div>
