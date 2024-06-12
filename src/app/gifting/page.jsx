@@ -10,7 +10,7 @@ const page = () => {
         <Navbar/>
       </div>
     </div>
-    <div>
+    <div className='md:pt-[230px] pt-[120px]'>
       <GiftingHero/>
     </div>
   </main>
