@@ -1,5 +1,5 @@
 import GiftingHero from '@/components/Giftings/GiftingHero'
-import Navbar from '@/components/Navbar/Navbar'
+import Navbar from '@/components/NavbarAlt/NavbarAlt';
 import React from 'react'
 
 const page = () => {

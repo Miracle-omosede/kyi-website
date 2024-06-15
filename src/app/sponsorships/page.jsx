@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar/Navbar'
+import Navbar from '@/components/NavbarAlt/NavbarAlt';
 import SponsorshipHero from '@/components/SponsorshipHero/SponsorshipHero'
 import React from 'react'
 

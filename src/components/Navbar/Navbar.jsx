@@ -150,10 +150,10 @@ const Navbar = () => {
                 </div>
               </div> 
               <div className="lg:flex items-center max-lg:flex-col lg:px-0 px-3 mb-3 lg:mb-0 text-left lg:space-x-4 uppercase">
-                <a
+                <Link
                   onMouseEnter={() => setHovered1(true)}
                   onMouseLeave={() => setHovered1(false)}
-                  href=""
+                  href="/join"
                   className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-5 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                 >
                   <span className="flex items-center justify-center">
@@ -239,7 +239,7 @@ const Navbar = () => {
                       </defs>
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>  
             </div>
 

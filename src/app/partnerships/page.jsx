@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar/Navbar'
+import Navbar from '@/components/NavbarAlt/NavbarAlt';
 import PartnersipsPage from '@/components/PartnershipsPage/PartnersipsPage'
 import React from 'react'
 

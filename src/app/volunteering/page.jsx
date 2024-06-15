@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar/Navbar'
+import Navbar from '@/components/NavbarAlt/NavbarAlt';
 import VolunteeringHero from '@/components/VolunteeringHero/VolunteeringHero'
 import React from 'react'
 

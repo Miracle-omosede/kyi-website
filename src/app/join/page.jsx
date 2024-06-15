@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar/Navbar';
+import Navbar from '@/components/NavbarAlt/NavbarAlt';
 import JoinHero from '@/components/joinHero/joinHero';
 import React from 'react'
 
@@ -10,7 +10,7 @@ const page = () => {
               <Navbar/>
             </div>
           </div>
-          <div>
+          <div className='md:pt-[90px] pt-[90px]'>
             <JoinHero/>
           </div>
         </main>
