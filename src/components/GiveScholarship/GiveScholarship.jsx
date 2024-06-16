@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const GiveScholarship = () => {
   return (
@@ -23,8 +24,8 @@ const GiveScholarship = () => {
               of leaders!
             </p>
             <div className="flex">
-              <a
-                href=""
+              <Link
+                href="/sponsorships"
                 className="flex flex-row items-center w-full  justify-center text-[16px] py-4 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-2"
               >
                 <span className="items-center justify-center flex-shrink flex tracking-wider">
@@ -52,7 +53,7 @@ const GiveScholarship = () => {
                     />
                   </svg>
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

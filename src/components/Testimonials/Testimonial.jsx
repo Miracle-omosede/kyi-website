@@ -37,7 +37,7 @@ const Testimonial = () => {
         <div className='flex w-full '>
         <div className='flex items-center justify-center md:w-auto md:px-0 w-full px-5'>
         <a
-        href=""
+        href="https://www.youtube.com/@kachemyounginitiative1224" target='_blank'
         className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-secondary bg-white border-secondary border capitalize font-manrope gap-1"
       >
         <span className="flex items-center justify-center font-[600]">View testimonial videos</span>

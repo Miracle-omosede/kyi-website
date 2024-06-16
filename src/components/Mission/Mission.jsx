@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import CountUP from "react-countup"
 import ScrollTrigger from "react-scroll-trigger";
+import Link from "next/link";
 
 const Mission = () => {
   const [counterOn, setCounterOn] = useState(false);
@@ -81,7 +82,7 @@ const Mission = () => {
         <div className="bg-[#157d9a3f] mt-[86px]">
             <div className="max-w-[1140px] mx-auto w-full">
             <p className="md:px-[80px] px-5 py-[80px] font-poppins text-center font-[600] text-secondary text-[16px] md:text-[25px]">
-            Kachem Young Initiative is a non-profit NGO founded in 2017 to administer community resilience towards solving problems of poverty among grassroots people, devaluation of education especially girl child education, female discrimination, and exclusion of persons with disabilities in Ebonyi State. <br className="md:hidden block"/><a href="#" className="text-primary">Learn more</a>
+            Kachem Young Initiative is a non-profit NGO founded in 2017 to administer community resilience towards solving problems of poverty among grassroots people, devaluation of education especially girl child education, female discrimination, and exclusion of persons with disabilities in Ebonyi State. <br className="md:hidden block"/><Link href="/about" className="text-primary">Learn more</Link>
             </p>
             </div>
         </div>

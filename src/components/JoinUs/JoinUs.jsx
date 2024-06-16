@@ -1,5 +1,6 @@
 import React from "react";
 import YoutubeEmbed from "../YoutubeEmbed";
+import Link from "next/link";
 
 const JoinUs = () => {
   return (
@@ -32,8 +33,8 @@ const JoinUs = () => {
 
               <div className="flex flex-col items-center justify-center gap-[20px]">
                 <div className="flex md:flex-row flex-col gap-2 md:gap-[41px] text-nowrap">
-                  <a
-                    href=""
+                  <Link
+                    href="/join"
                     className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                   >
                     <span className="flex items-center justify-center">
@@ -119,9 +120,9 @@ const JoinUs = () => {
                         </defs>
                       </svg>
                     </span>
-                  </a>
-                  <a
-                    href=""
+                  </Link>
+                  <Link
+                    href="/partnerships"
                     className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-2"
                   >
                     <span className="flex items-center justify-center">
@@ -141,12 +142,12 @@ const JoinUs = () => {
                         />
                       </svg>
                     </span>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex flex-col md:flex-row text-nowrap  gap-2 md:gap-[41px]">
-                  <a
-                    href=""
+                  <Link
+                    href="/gifting"
                     className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-2"
                   >
                     <span className="flex items-center justify-center">
@@ -168,10 +169,10 @@ const JoinUs = () => {
                         />
                       </svg>
                     </span>
-                  </a>
+                  </Link>
 
-                  <a
-                    href=""
+                  <Link
+                    href="/sponsorships"
                     className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-2"
                   >
                     <span className="flex items-center justify-center">
@@ -199,13 +200,13 @@ const JoinUs = () => {
                         />
                       </svg>
                     </span>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="flex-none flex items-center justify-center">
                   <div>
-                    <a
-                      href=""
+                    <Link
+                      href="/volunteering"
                       className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-2"
                     >
                       <span className="flex items-center justify-center">
@@ -227,7 +228,7 @@ const JoinUs = () => {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

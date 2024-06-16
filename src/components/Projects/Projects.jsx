@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -23,9 +24,9 @@ const Projects = () => {
                 specific developmental project, accessible education and
                 healthcare.
                 <br />
-                <a href="#" className="text-primary block md:hidden">
+                <Link href="/allprojects" className="text-primary block md:hidden">
                   Learn more
-                </a>
+                </Link>
               </p>
             </div>
 
@@ -48,8 +49,8 @@ const Projects = () => {
 
             <div className="flex">
               <div className="flex flex-row gap-[25px]">
-                <a
-                  href=""
+                <Link
+                  href="/join"
                   className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                 >
                   <span className="flex items-center justify-center">
@@ -135,10 +136,10 @@ const Projects = () => {
                       </defs>
                     </svg>
                   </span>
-                </a>
+                </Link>
 
-                <a
-                  href=""
+                <Link
+                  href="/allprojects"
                   className="flex flex-row flex-nowrap items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-primary font-semibold border-primary border-2 bg-white capitalize font-manrope gap-1"
                 >
                   <span className="flex-none items-center justify-center w-full">
@@ -158,7 +159,7 @@ const Projects = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
