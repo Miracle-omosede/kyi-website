@@ -95,7 +95,7 @@ const Navbar = () => {
                   </li> */}
                   <ProjectsNav/>
                   <li className="capitalize font-bold hover:text-primary transition-all delay-100 ease-in-out">
-                    <Link href="./contact">
+                    <Link href="./gallery">
                       <span>
                         <a>Gallery</a>
                       </span>
