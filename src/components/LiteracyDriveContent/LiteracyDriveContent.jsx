@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer'
 const LiteracyDriveContent = () => {
   return (
     <div>
-    <div className="max-w-[1140px] w-full mx-auto  font-poppins px-5">
+    <div className="max-w-[1140px] w-full mx-auto  font-poppins px-5 mt-[70px]">
 <div>
   <h1 className="md:text-[36px] text-[20px] font-semibold text-center">
   Literacy Drive Project
