@@ -6,8 +6,8 @@ const ProjectVideo = ({ embedID }) => {
     <div className="video-responsive w-full object-cover rounded-[8px] flex items-center justify-center h-full">
       <iframe
         width="100%"
-        height="100%" // Height set to 100% to use CSS for responsive design
-        src={`https://www.youtube.com/embed/${embedID}`}
+        height="100%"
+        src={`https://www.youtube.com/embed/${embedID}?autoplay=1`} // Added autoplay=1 to enable autoplay
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

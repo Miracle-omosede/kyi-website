@@ -27,7 +27,8 @@ export default function Home() {
           />
         </div>
         <div className="absolute top-0 w-full left-0">
-        <Hero /></div>
+        <Hero />
+        </div>
         <Mission />
         <Projects />
         <GiveScholarship />
