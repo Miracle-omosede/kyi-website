@@ -1,6 +1,7 @@
 import React from 'react'
 import FundingForm from '../FundingForm'
 import Footer from '../Footer/Footer'
+import ProjectVideo from '../ProjectVideo'
 
 const CdapContent = () => {
   return (
@@ -12,11 +13,10 @@ const CdapContent = () => {
   </h1>
 </div>
 
-<div className='md:mt-[138px] mt-[50px]'>
-<img
-              src="https://miracle.sirv.com/kachem-young-initiative/Frame%201000004125.png"
-              className="md:h-[592px] w-full rounded-[px] object-fill"
-            />
+<div className='md:mt-[138px] mt-[50px] '>
+  <div className='w-full md:h-[592px]'>
+      <ProjectVideo embedID="ttPdqvOk54A" />
+  </div>
 </div>
 
 <div>
