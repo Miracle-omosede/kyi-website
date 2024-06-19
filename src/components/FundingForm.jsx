@@ -136,7 +136,7 @@ const FundingForm = () => {
                       onClick={() => setShowModal(true)}
               className="w-full transition ease-in-out inline-flex justify-center py-2 px-4 sm:px-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-[#097895] hover:bg-white hover:text-[#097895] hover:border-[#097895] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#097895]"
             >
-              Go to checkout
+              Donate
             </button>
             <button
               type="button"
