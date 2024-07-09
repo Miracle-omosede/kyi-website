@@ -1,5 +1,17 @@
-import React from "react";
+"use client"
 import Link from "next/link";
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+// import './styles.css';
+
+// import required modules
+import { Navigation } from 'swiper/modules';
 
 const Projects = () => {
   return (
@@ -11,6 +23,8 @@ const Projects = () => {
       </div>
 
       <div className="md:max-w-[1140px] mx-auto w-full font-poppins">
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <SwiperSlide>   
         <div className="grid grid-cols-12 md:px-0 px-5 gap-[31px]">
           <div className=" row-start-2 col-span-12 md:col-span-8 flex flex-col gap-10 md:gap-[64px]">
             <div className="flex flex-col gap-[25px]">
@@ -31,22 +45,6 @@ const Projects = () => {
             </div>
 
             {/* progress bar */}
-            <div className="md:text-[16px] text-[12px]">
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Donations</span>
-                <span>0%</span>
-              </div>
-              <div className="bg-[rgb(197,223,230)] rounded-xl shadow-sm overflow-hidden p-1">
-                <div className="relative h-3 flex items-center justify-center">
-                  <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[10%] bg-secondary"></div>
-                </div>
-              </div>
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Raised: $0</span>
-                <span>Goal: $2,000,000</span>
-              </div>
-            </div>
-
             <div className="flex">
               <div className="flex flex-row gap-[25px]">
                 <Link
@@ -169,6 +167,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
+      </SwiperSlide>
+   
+      </Swiper>
       </div>
     </div>
   );
