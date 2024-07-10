@@ -1,4 +1,14 @@
-import React from "react";
+"use client";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination, Autoplay} from "swiper/modules";
 import Form from "../Form";
 
 const Partnership = () => {
@@ -20,35 +30,70 @@ const Partnership = () => {
       </div>
 
       <div className="mt-[84px] bg-[#f6530834]">
-        <div className="py-[22px] flex flex-col gap-[30px] md:gap-0">
-          <div className="flex md:flex-row flex-col md:gap-[213px] gap-[30px] items-center justify-center">
-            <img
-              src="https://miracle.sirv.com/kachem-young-initiative/ShieldedBit%20Logo%201.png"
-              className="object-cover md:w-[254px] md:h-[254px] w-[200px] "
-            />
-            <img
-              src="https://miracle.sirv.com/kachem-young-initiative/codeflare-logo-orange%201.png"
-              className="object-cover  md:w-[396px] md:h-[112px] w-[280px]"
-            />
-            <img
-              src="https://miracle.sirv.com/kachem-young-initiative/IMG_4695%201.png"
-              className="object-cover md:h-[143px] md:w-[227px] w-[170px]"
-            />
-          </div>
-          <div className="flex flex-col md:flex-row md:gap-[213px] gap-[30px] items-center justify-center">
-            <img
-              src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.42%201.png"
-              className="object-cover md:w-[347px] md:h-[183px] w-[230px] "
-            />
-            <img
-              src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.44%202.png"
-              className="object-cover md:w-[396px] md:h-[203px] w-[250px]"
-            />
-            <img
-              src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.44%201.png"
-              className="object-cover md:h-[228px] md:w-[206px] w-[170px]"
-            />
-          </div>
+        <div className="py-[22px] flex items-center justify-center">
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+            modules={[Autoplay, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <img
+                  src="https://miracle.sirv.com/kachem-young-initiative/ShieldedBit%20Logo%201.png"
+                  className="object-cover md:w-[254px] md:h-[254px] w-[200px] flex items-center justify-center "
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex h-full items-center justify-center w-full md:h-[400px] h-[200px]">
+                <img
+                  src="https://miracle.sirv.com/kachem-young-initiative/codeflare-logo-orange%201.png"
+                  className="object-cover flex items-center justify-center  md:w-[396px] md:h-[112px] w-[280px] flex items-center justify-center"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <img
+                  src="https://miracle.sirv.com/kachem-young-initiative/IMG_4695%201.png"
+                  className="object-cover md:h-[143px] md:w-[227px] w-[170px] flex items-center justify-center"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <img
+                  src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.42%201.png"
+                  className="object-cover md:w-[347px] md:h-[183px] w-[230px] flex items-center justify-center"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <img
+                  src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.44%202.png"
+                  className="object-cover md:w-[396px] md:h-[203px] w-[250px] flex items-center justify-center"
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <img
+                  src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.44%201.png"
+                  className="object-cover md:h-[228px] md:w-[206px] w-[170px] flex items-center justify-center"
+                />
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
 
@@ -60,7 +105,8 @@ const Partnership = () => {
           <div className="font-poppins flex flex-col justify-center h-full gap-7 md:py-0">
             <div className="flex flex-col gap-[25px]">
               <div className="text-black">
-                <b>Address:</b> No. 50 Ezza Road, Abakaliki, Ebonyi State,<br/>
+                <b>Address:</b> No. 50 Ezza Road, Abakaliki, Ebonyi State,
+                <br />
                 Nigeria
               </div>
               <div className="text-black">
@@ -71,7 +117,7 @@ const Partnership = () => {
             <div className="w-full h-[1px] bg-[#D9D9D9]"></div>
 
             <div className="flex flex-col gap-4 md:text-[17px] text-[14px] tracking-wider">
-            <div className="flex flex-row gap-5 items-center">
+              <div className="flex flex-row gap-5 items-center">
                 <span>
                   <svg
                     width="28"

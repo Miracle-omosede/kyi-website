@@ -1,4 +1,19 @@
-import React from 'react'
+"use client"
+import Link from "next/link";
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+// import './styles.css';
+
+// import required modules
+import { Navigation } from 'swiper/modules';
+import SwiperNavButton from "../SwiperNavButton";
+import SecondSwiperBtn from "../SecondSwiperBtn";
 
 const Testimonial = () => {
   return (
@@ -11,7 +26,9 @@ const Testimonial = () => {
         </div>
 
        <div>
-       <div className='grid grid-cols-12 px-5 md:px-0'>
+      <Swiper navigation={false} modules={[Navigation]} className="mySwiper">
+     <SwiperSlide>
+     <div className='grid grid-cols-12 px-5 md:px-0'>
             <div className='md:col-span-6 col-span-12 gap-6 flex flex-col font-poppins'>
                 <h2 className='font-semibold text-secondary capitalize md:text-[32px] text-[20px]'>
                 I get to achieve my dreams and help my family too
@@ -33,7 +50,34 @@ const Testimonial = () => {
             </div>
 
         </div>
+     </SwiperSlide>
+     <SwiperSlide>
+     <div className='grid grid-cols-12 px-5 md:px-0'>
+            <div className='md:col-span-6 col-span-12 gap-6 flex flex-col font-poppins'>
+                <h2 className='font-semibold text-primary capitalize md:text-[32px] text-[20px]'>
+                KYI helped me believe in myself again
+                </h2>
 
+                <div className='flex flex-col'>
+                    <span className='font-bold text-[18px]'>Peace Mercy Ogbangba</span>
+                    <span className='text-[16px]'>Mentee</span>
+                </div>
+
+                <div className='pl-[18px] border-l-4 border-primary'>
+                    <p className='text-[15px] md:text-[14px]'>
+                    After two years of not being in school, I enrolled for free lessons as a mentee at a KYI Learning Center. I was able to write JAMB which I passed, then got admitted into university on KYI Sponsor A Dream Scholarship. Before I joined KYI, I battled depression and a low self confidence. I did not believe I could achieve my dreams. KYI gave me hope and made me believe I could do anything I set my eye on doing. 
+                    </p>
+                </div>
+            </div>
+            <div className='col-span-12 md:py-0 py-10 md:col-span-6 flex items-center justify-center'>
+            <img src='https://miracle.sirv.com/pleiades-assets/Photo.png'/>
+            </div>
+
+        </div>
+     </SwiperSlide>
+     <SecondSwiperBtn/>
+      </Swiper>
+      
         <div className='flex w-full '>
         <div className='flex items-center justify-center md:w-auto md:px-0 w-full px-5'>
         <a
