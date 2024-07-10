@@ -26,9 +26,9 @@ const AboutHeader = () => {
               {/* inner items */}
               <div className="flex flex-col gap-[19px] w-full">
                 <div className="flex flex-row md:justify-between  justify-center items-center  w-full">
-                  <div className="md:block hidden">
+                  <div className="md:block hidden rounded-[8px] border border-primary">
                     <img
-                      src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%2061.png"
+                      src="https://miracle.sirv.com/kachem-young-initiative/Copy%20of%20who%20are%20we%20website%20replacement%20.jpg"
                       className="h-[228px] w-[319px] rounded-[8px] object-cover"
                     />
                   </div>
@@ -82,7 +82,7 @@ const AboutHeader = () => {
         </div>
 
         <div className="md:pt-[80px] pt-10">
-          {/* <p className="md:text-[22px] text-[17px] font-medium font-poppins">
+          <p className="md:text-[22px] text-[17px] font-medium font-poppins">
             From our research, we put together vital statistics that inspired
             the foundation of our organisations purpose -
             <ol className="list-disc pl-10 pt-5">
@@ -97,14 +97,10 @@ const AboutHeader = () => {
                 dietery quality and capacity utilization.
               </li>
               <li>
-                Abject poerty lines established for single-person, four-person,
-                and six-person household units were annual incomes of $863,
-                $2,256, $3,429 respectively and their corresponding absolute
-                poverty lines are an annual income of $2,588, $6,769 and $10,299
-                respectively.{" "}
+              Abject poverty lines established for single-person, Four person, and six-person household units where annual incomes of $863, $2,256, $3,429 respectively and their corresponding absolute poverty lines are an income of $2588, $6,769 and &10,299 respectively. This is estimated to degenerate by 10% each year making the state even more below the poverty lines. Stats -2015 – 2024
               </li>
             </ol>
-          </p> */}
+          </p>
         </div>
 
         <div className="h-[400px] mb-[84px] w-full relative flex flex-row mt-[100px]">
