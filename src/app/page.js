@@ -21,7 +21,6 @@ export default function Home() {
             className="absolute top-0 left-0 w-full h-full object-cover -z-30"
             src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Video%202023-10-10%20at%206.51.34%20AM.mp4"
             autoPlay
-            muted
             loop
             playsInline
           />

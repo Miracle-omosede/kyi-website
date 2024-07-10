@@ -82,7 +82,7 @@ const AboutHeader = () => {
         </div>
 
         <div className="md:pt-[80px] pt-10">
-          <p className="md:text-[22px] text-[17px] font-medium font-poppins">
+          {/* <p className="md:text-[22px] text-[17px] font-medium font-poppins">
             From our research, we put together vital statistics that inspired
             the foundation of our organisations purpose -
             <ol className="list-disc pl-10 pt-5">
@@ -104,7 +104,7 @@ const AboutHeader = () => {
                 respectively.{" "}
               </li>
             </ol>
-          </p>
+          </p> */}
         </div>
 
         <div className="h-[400px] mb-[84px] w-full relative flex flex-row mt-[100px]">
@@ -128,23 +128,21 @@ const AboutHeader = () => {
             <ul className="flex flex-col gap-6">
               <li>
                 <p>
-                  <b>Our Vision:</b> We envisage a sustainable and equitable
-                  structure for grassroots-oriented Inclusive or Equitable
-                  education policies in Africa through a massive drive for
-                  equity in grassroots Literacy.
+                  <b className="text-center">Our Vision:</b><br/>We envision an inclusive and civil society where women, youth, and persons with disabilities can equally thrive. This will be achieved through a concerted effort to promote rural literacy, education, and creativity.
                 </p>
               </li>
               <li>
-                <p>
+                {/* <p>
                   We firmly believe that education is the foundation for social
                   and economic progress, and that by empowering individuals with
                   the necessary skills and knowledge, we can drive sustainable
                   development and create a brighter future for all.
-                </p>
+                </p> */}
               </li>
               <li>
                 <p>
-                  <b>Our Mission:</b> To advocate and promote entrepreneurial
+                  <b className="text-center">Our Mission:</b> <br/>
+                  To advocate and promote entrepreneurial
                   education, advocate for equity, inclusion, and access in
                   Africa’s education, and mitigate the odds against literacy and
                   minority rights.

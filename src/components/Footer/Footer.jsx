@@ -1,5 +1,6 @@
 import React from "react";
 import DonateButton from "../DonateButton";
+import SubscribeNewsletter from "../SubscribeNewsletter";
 
 const Footer = () => {
   return (
@@ -51,6 +52,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="h-[1px] w-full bg-white"></div>
+      <div>
+      <SubscribeNewsletter/>
+      </div>
       <div className="md:mb-[12px] mx-auto py-5 md:px-0 px-5 max-w-[1140px] font-poppins">
         <div className="flex gap-6 md:gap-0 md:items-center md:flex-row  flex-col-reverse justify-between">
             <span className="font-manrope text-white text-[12px]">© 2023 Kachem Young Initiative. All rights reserved</span>

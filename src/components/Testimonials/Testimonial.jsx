@@ -19,7 +19,7 @@ const Testimonial = () => {
   return (
     <div className='mt-[20px] mx-auto max-w-[1140px] w-full font-poppins flex flex-col md:gap-0 gap-20 '>
           <div className='mt-[85px] px-5'>
-        <h1 className="flex items-center text-center justify-center mb-[15px] font-poppins text-[40px] font-bold">Our Testimonials</h1>
+        <h1 className="flex items-center text-center justify-center mb-[15px] font-poppins text-[40px] font-bold">Testimonials</h1>
         <p className='font-poppins md:text-[23px] font-semibold text-[17px] text-center mb-[15px]'>
         See what our beneficiaries have to say about us
         </p>

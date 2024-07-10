@@ -13,15 +13,13 @@ const Mission = () => {
       <div className="pt-[5rem] md:px-0 px-5 md:pt-[147px] max-w-[1140px] w-full mx-auto flex flex-col gap-[104px]">
         <div>
           <p className="text-black text-[16px] md:text-[26px] text-center font-poppins md:font-medium ">
-            Our mission is to advocate and promote entrepreneurial education,
-            advocate for equity, inclusion, and access in Africa’s education,
-            and mitigate the odds against literacy and minority rights.{" "}
+          To advocate for and exemplify equitable, skill-based education that addresses the diverse learning needs of all learners in rural communities. We aim to mitigate barriers to literacy and disability inclusion at grassroots, foster community resilience to eliminate female subjugation, exclusion, promote youth development, and ensure the sustainability of our solutions within each host community.{" "}
           </p>
         </div>
 
         <div>
-          <div className="text-black font-poppins text-center md:px-[61px] px-5 grid grid-cols-12">
-            <div className="col-span-12 md:col-span-5 font-poppins">
+          <div className="text-black font-poppins items-center justify-center text-center md:px-[61px] px-5 flex ">
+            {/* <div className="col-span-12 md:col-span-5 font-poppins">
               <div>
                 <div className="md:h-[417px] flex flex-col md:items-start items-center justify-center">
                     <div className="flex md:flex-col flex-row items-center justify-center relative">
@@ -49,7 +47,7 @@ const Mission = () => {
                     </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="col-span-12 md:col-span-7 mt-[5rem] md:mt-0">
               <div className="flex items-center justify-center">
               <div className="flex flex-col flex-wrap md:gap-[28px] gap-[1rem]">
