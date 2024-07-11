@@ -47,58 +47,72 @@ const Partnership = () => {
           >
             <SwiperSlide>
               <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <a href="https://shieldedbit.com/" target="_blank" className="cursor-pointer">
                 <img
                   src="https://miracle.sirv.com/kachem-young-initiative/ShieldedBit%20Logo%201.png"
                   className="object-cover md:w-[254px] md:h-[254px] w-[200px] flex items-center justify-center "
                 />
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex h-full items-center justify-center w-full md:h-[400px] h-[200px]">
+                <a href="https://codeflarelimited.com" target="_blank" className="cursor-pointer">
                 <img
                   src="https://miracle.sirv.com/kachem-young-initiative/codeflare-logo-orange%201.png"
                   className="object-cover flex items-center justify-center  md:w-[396px] md:h-[112px] w-[280px] flex items-center justify-center"
                 />
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <a href="" target="_blank" className="cursor-pointer">
                 <img
                   src="https://miracle.sirv.com/kachem-young-initiative/IMG_4695%201.png"
                   className="object-cover md:h-[143px] md:w-[227px] w-[170px] flex items-center justify-center"
                 />
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <a href="https://followthemoneyng.org/ " className="cursor-pointer" target="_blank">
                 <img
                   src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.42%201.png"
                   className="object-cover md:w-[347px] md:h-[183px] w-[230px] flex items-center justify-center"
                 />
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <a href="https://www.connecteddevelopment.org/" className="cursor-pointer" target="_blank">
                 <img
                   src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.44%202.png"
                   className="object-cover md:w-[396px] md:h-[203px] w-[250px] flex items-center justify-center"
                 />
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <a href="https://www.youtube.com/@kachemyounginitiative1224" className="cursor-pointer" target="_blank">
                 <img
                   src="https://miracle.sirv.com/kachem-young-initiative/WhatsApp%20Image%202023-08-06%20at%203.44%201.png"
                   className="object-cover md:h-[228px] md:w-[206px] w-[170px] flex items-center justify-center"
                 />
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <a href="https://moe.eb.gov.ng/" className="cursor-pointer" target="_blank">
                 <img
                   src="https://miracle.sirv.com/kachem-young-initiative/EBONYI%20State%20Ministry%20of%20Education%20logo.PNG"
                   className="object-cover md:h-[228px] md:w-[206px] w-[170px] flex items-center justify-center"
                 />
+                </a>
               </div>
             </SwiperSlide>
           </Swiper>
