@@ -93,6 +93,14 @@ const Partnership = () => {
                 />
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <img
+                  src="https://miracle.sirv.com/kachem-young-initiative/EBONYI%20State%20Ministry%20of%20Education%20logo.PNG"
+                  className="object-cover md:h-[228px] md:w-[206px] w-[170px] flex items-center justify-center"
+                />
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
