@@ -41,22 +41,7 @@ const AllProjectsMain = () => {
               </p>
             </div>
 
-            {/* progress bar */}
-            <div className="md:text-[14px] text-[12px]">
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Donations</span>
-                <span>0%</span>
-              </div>
-              <div className="bg-[rgb(197,223,230)] rounded-xl shadow-sm overflow-hidden p-1">
-                <div className="relative h-3 flex items-center justify-center">
-                  <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[10%] bg-secondary"></div>
-                </div>
-              </div>
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Raised: $0</span>
-                <span>Goal: $2,000,000</span>
-              </div>
-            </div>
+       
           </div>
         </div> 
         </Link>
@@ -79,22 +64,7 @@ const AllProjectsMain = () => {
               </p>
             </div>
 
-            {/* progress bar */}
-            <div className="md:text-[14px] text-[12px]">
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Donations</span>
-                <span>0%</span>
-              </div>
-              <div className="bg-[rgb(197,223,230)] rounded-xl shadow-sm overflow-hidden p-1">
-                <div className="relative h-3 flex items-center justify-center">
-                  <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[10%] bg-secondary"></div>
-                </div>
-              </div>
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Raised: $0</span>
-                <span>Goal: $2,000,000</span>
-              </div>
-            </div>
+          
           </div>
         </div> 
         </Link>
@@ -116,22 +86,6 @@ const AllProjectsMain = () => {
               </p>
             </div>
 
-            {/* progress bar */}
-            <div className="md:text-[14px] text-[12px]">
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Donations</span>
-                <span>0%</span>
-              </div>
-              <div className="bg-[rgb(197,223,230)] rounded-xl shadow-sm overflow-hidden p-1">
-                <div className="relative h-3 flex items-center justify-center">
-                  <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[10%] bg-secondary"></div>
-                </div>
-              </div>
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Raised: $0</span>
-                <span>Goal: $2,000,000</span>
-              </div>
-            </div>
           </div>
         </div> 
         </Link>
@@ -156,21 +110,7 @@ const AllProjectsMain = () => {
             </div>
 
             {/* progress bar */}
-            <div className="md:text-[14px] text-[12px]">
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Donations</span>
-                <span>0%</span>
-              </div>
-              <div className="bg-[rgb(197,223,230)] rounded-xl shadow-sm overflow-hidden p-1">
-                <div className="relative h-3 flex items-center justify-center">
-                  <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[10%] bg-secondary"></div>
-                </div>
-              </div>
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Raised: $0</span>
-                <span>Goal: $2,000,000</span>
-              </div>
-            </div>
+          
           </div>
         </div> 
         </Link>
@@ -181,35 +121,20 @@ const AllProjectsMain = () => {
         <div className="flex flex-col md:px-0 px-5 gap-[31px] w-[350px] rounded-[8px] shadow-lg">
         <div className="">
             <div className="flex items-center justify-center w-full">
-            <img src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%202906%20(3).png" className="w-full h-[250px] object-cover rounded-[8px]" />
+            <img src="https://miracle.sirv.com/kachem-young-initiative/IMG_3976.JPG" className="w-full h-[250px] object-cover rounded-[8px]" />
             </div>
           </div>
           <div className="flex flex-col gap-10 md:gap-[15px] p-7">
             <div className="flex flex-col gap-[25px]">
               <h1 className="font-semibold text-[24px]">
-              International Women&apos;s Day
+              Rural Women Farmer&apos;s Initiative
               </h1>
               <p className="md:text-[14px] text-[13px] tracking-wide">
               At Kachem Young Initiative, we are dedicated to promoting basic health education and raising awareness ...
               </p>
             </div>
 
-            {/* progress bar */}
-            <div className="md:text-[14px] text-[12px]">
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Donations</span>
-                <span>0%</span>
-              </div>
-              <div className="bg-[rgb(197,223,230)] rounded-xl shadow-sm overflow-hidden p-1">
-                <div className="relative h-3 flex items-center justify-center">
-                  <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[10%] bg-secondary"></div>
-                </div>
-              </div>
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Raised: $0</span>
-                <span>Goal: $2,000,000</span>
-              </div>
-            </div>
+         
           </div>
         </div> 
         </Link>
@@ -221,7 +146,7 @@ const AllProjectsMain = () => {
             <div className="flex items-center justify-center w-full">
             <div className="w-full h-[250px] bg-gray-300 object-cover rounded-[8px] flex items-center justify-center"> 
                 <button className='rounded-lg bg-primary text-white p-5'>
-                    Coming Soon
+                    Codefusion
                 </button>
             </div>
             </div>
@@ -229,29 +154,13 @@ const AllProjectsMain = () => {
           <div className="flex flex-col gap-10 md:gap-[15px] p-7">
             <div className="flex flex-col gap-[25px]">
               <h1 className="font-semibold text-[24px]">
-              International Exchange for Persons with Disabilities
+              Codefusion
               </h1>
               <p className="md:text-[14px] text-[13px] tracking-wide">
               Coming soon
               </p>
             </div>
 
-            {/* progress bar */}
-            <div className="md:text-[14px] text-[12px]">
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Donations</span>
-                <span>0%</span>
-              </div>
-              <div className="bg-[rgb(197,223,230)] rounded-xl shadow-sm overflow-hidden p-1">
-                <div className="relative h-3 flex items-center justify-center">
-                  <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[10%] bg-secondary"></div>
-                </div>
-              </div>
-              <div className="flex flex-row justify-between items-center my-2">
-                <span>Raised: $0</span>
-                <span>Goal: $2,000,000</span>
-              </div>
-            </div>
           </div>
         </div> 
 
