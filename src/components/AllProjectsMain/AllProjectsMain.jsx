@@ -73,7 +73,7 @@ const AllProjectsMain = () => {
         <div className="flex flex-col md:px-0 px-5 gap-[31px] w-[350px] rounded-[8px] shadow-lg">
         <div className="">
             <div className="flex items-center justify-center w-full">
-            <img src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%202906%20(2).png" className="w-full h-[250px] object-cover rounded-[8px]" />
+            <img src="https://miracle.sirv.com/kachem-young-initiative/CDAP%20IMAGE%20REP.jpeg" className="w-full h-[250px] object-cover rounded-[8px]" />
             </div>
           </div>
           <div className="flex flex-col gap-10 md:gap-[15px] p-7">
@@ -138,10 +138,31 @@ const AllProjectsMain = () => {
           </div>
         </div> 
         </Link>
+        <Link href="/iwd">
+        <div className="flex flex-col md:px-0 px-5 gap-[31px] w-[350px] rounded-[8px] shadow-lg">
+        <div className="">
+            <div className="flex items-center justify-center w-full">
+            <img src="https://miracle.sirv.com/kachem-young-initiative/IMG_3976.JPG" className="w-full h-[250px] object-cover rounded-[8px]" />
+            </div>
+          </div>
+          <div className="flex flex-col gap-10 md:gap-[15px] p-7">
+            <div className="flex flex-col gap-[25px]">
+              <h1 className="font-semibold text-[24px]">
+              CodeFusion
+              </h1>
+              <p className="md:text-[14px] text-[13px] tracking-wide">
+              RUWOFI is an initiative that establishes sustainable agricultural enterprises led by rural women farmers...
+              </p>
+            </div>
+
+         
+          </div>
+        </div> 
+        </Link>
 
         {/* card 6 */}
 
-        <div className="flex flex-col md:px-0 px-5 gap-[31px] w-[350px] rounded-[8px] shadow-lg">
+        {/* <div className="flex flex-col md:px-0 px-5 gap-[31px] w-[350px] rounded-[8px] shadow-lg">
         <div className="">
             <div className="flex items-center justify-center w-full">
             <div className="w-full h-[250px] bg-gray-300 object-cover rounded-[8px] flex items-center justify-center"> 
@@ -162,7 +183,7 @@ const AllProjectsMain = () => {
             </div>
 
           </div>
-        </div> 
+        </div>  */}
 
         </div>
     </div>

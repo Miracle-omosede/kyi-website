@@ -164,7 +164,7 @@ const Projects = () => {
           </div>
           <div className="md:row-start-2 row-start-1 col-span-12 md:col-span-4">
             <div className="flex items-center justify-center w-full">
-            <img src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%205.png" className="w-full" />
+            <img src="https://miracle.sirv.com/kachem-young-initiative/CDAP%20IMAGE%20REP.jpeg" className="w-full" />
             </div>
           </div>
         </div>
