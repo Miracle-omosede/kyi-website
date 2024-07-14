@@ -127,10 +127,10 @@ const AllProjectsMain = () => {
           <div className="flex flex-col gap-10 md:gap-[15px] p-7">
             <div className="flex flex-col gap-[25px]">
               <h1 className="font-semibold text-[24px]">
-              Rural Women Farmer&apos;s Initiative
+              Rural Women Farmers Initiative(RUWOFI)
               </h1>
               <p className="md:text-[14px] text-[13px] tracking-wide">
-              At Kachem Young Initiative, we are dedicated to promoting basic health education and raising awareness ...
+              RUWOFI is an initiative that establishes sustainable agricultural enterprises led by rural women farmers...
               </p>
             </div>
 
