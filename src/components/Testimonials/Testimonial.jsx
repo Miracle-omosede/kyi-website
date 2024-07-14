@@ -65,8 +65,9 @@ const Testimonial = () => {
 
                 <div className='pl-[18px] border-l-4 border-primary'>
                     <p className='text-[15px] md:text-[14px]'>
-                    After two years of not being in school, I enrolled for free lessons as a mentee at a KYI Learning Center. I was able to write JAMB which I passed, then got admitted into university on KYI Sponsor A Dream Scholarship. Before I joined KYI, I battled depression and a low self confidence. I did not believe I could achieve my dreams. KYI gave me hope and made me believe I could do anything I set my eye on doing. 
-                    </p>
+                    I lived and schooled in my village, Ndubia Ezenyimegu, but due to poverty I had no way to further to university. I came into Abakaliki city through my family friend who engaged me as a thrift collector earning very little money monthly, hardly enough to feed. I found myself amidst the risks of being sexually assaulted severally, then I met Barrister Melva Uguru in her office and talked with her. I got into the KYI mentorship program where I was trained in shoemaking skills for 6months, the KYI mentors helped me sell some of my shoes to purchase some tools for my shoe making business. I also received academic coaching at the center. 
+Today, I am a student of Dental Therapy at the Federal college of Dental Technology and Therapy in Enugu State, studying under the full scholarship program of Kachem Young Initiative. I am grateful for the guidance, support and opportunities I continue to receive as a KYI mentee. 
+</p>
                 </div>
             </div>
             <div className='col-span-12 md:py-0 py-10 md:col-span-6 flex items-center justify-center'>
