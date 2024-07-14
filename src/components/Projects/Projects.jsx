@@ -30,7 +30,7 @@ const Projects = () => {
           <div className=" row-start-2 col-span-12 md:col-span-8 flex flex-col gap-10 md:gap-[64px]">
             <div className="flex flex-col gap-[25px]">
               <h1 className="font-semibold text-[24px]">
-                Community Development{" "}
+                Community Development Acceleration Program{" "}
               </h1>
               <p className="md:text-[18px] text-[16px] tracking-wide">
                 A community Development Acceleration project, designed to
