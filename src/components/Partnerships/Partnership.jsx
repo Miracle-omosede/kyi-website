@@ -127,7 +127,7 @@ const Partnership = () => {
           <div className="font-poppins flex flex-col justify-center h-full gap-7 md:py-0">
             <div className="flex flex-col gap-[25px]">
               <div className="text-black capitalize">
-                <b>Address:</b> NO. 50 CHINWEIKE ELOM ROAD, ABAKALIKI, EBONYI STATE.
+                <b>Address:</b> NO. 5 CHINWEIKE ELOM ROAD, ABAKALIKI, EBONYI STATE.
                 <br />
                 Nigeria
               </div>
