@@ -1,6 +1,18 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Footer from "../Footer/Footer";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+
+// import required modules
+import { Grid, Pagination } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/grid';
+import 'swiper/css/pagination';
 
 const Gallery = () => {
   const images = [
@@ -252,9 +264,31 @@ const Gallery = () => {
           </p>
         </div>
         <div className="bg-white py-12 px-6 sm:px-12 lg:px-24">
-          <div className="max-w-screen-lg mx-auto">
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="max-w-screen-lg mx-auto">    
+        <Swiper
+        slidesPerView={3}
+        grid={{
+          rows: 2,
+        }}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Grid, Pagination]}
+        className="mySwiper grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+         {images.map((image, index) => (
+             <SwiperSlide key={index} className="overflow-hidden rounded-lg shadow-lg">
+                   <img
+                    src={image}
+                    alt={`Gallery Image ${index + 1}`}
+                    className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105 cursor-pointer"
+                    onClick={() => openLightbox(image)}
+                  />
+             </SwiperSlide>
+         ))}
+        </Swiper>
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {images.map((image, index) => (
                 <div
                   key={index}
@@ -268,7 +302,7 @@ const Gallery = () => {
                   />
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
 
