@@ -142,7 +142,11 @@ const AllProjectsMain = () => {
         <div className="flex flex-col md:px-0 px-5 gap-[31px] w-[350px] rounded-[8px] shadow-lg">
         <div className="">
             <div className="flex items-center justify-center w-full">
-            <img src="https://miracle.sirv.com/kachem-young-initiative/IMG_3976.JPG" className="w-full h-[250px] object-cover rounded-[8px]" />
+            <div className="w-full h-[250px] bg-gray-300 object-cover rounded-[8px] flex items-center justify-center"> 
+                <button className='rounded-lg bg-primary text-white p-5'>
+                    Codefusion
+                </button>
+            </div>
             </div>
           </div>
           <div className="flex flex-col gap-10 md:gap-[15px] p-7">
@@ -151,7 +155,7 @@ const AllProjectsMain = () => {
               CodeFusion
               </h1>
               <p className="md:text-[14px] text-[13px] tracking-wide">
-              RUWOFI is an initiative that establishes sustainable agricultural enterprises led by rural women farmers...
+              {/* RUWOFI is an initiative that establishes sustainable agricultural enterprises led by rural women farmers... */}
               </p>
             </div>
 
