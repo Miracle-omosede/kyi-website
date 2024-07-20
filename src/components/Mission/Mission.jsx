@@ -104,7 +104,7 @@ const Mission = () => {
 
           <div className="mt-[120px]">
             <h1 className="flex items-center text-center justify-center mb-[84px] font-poppins text-[40px] font-bold">
-              Our Memories
+              Our Beliefs
             </h1>
 
             <div className=" w-full mx-auto max-w-[1140px] flex flex-col gap-[18px] px-5 md:px-0">

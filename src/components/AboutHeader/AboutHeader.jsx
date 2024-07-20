@@ -138,10 +138,7 @@ const AboutHeader = () => {
               <li>
                 <p>
                   <b className="text-center">Our Mission:</b> <br/>
-                  To advocate and promote entrepreneurial
-                  education, advocate for equity, inclusion, and access in
-                  Africa’s education, and mitigate the odds against literacy and
-                  minority rights.
+                  To advocate for and exemplify equitable, skill-based education that addresses the diverse learning needs of all learners in rural communities. We aim to mitigate barriers to literacy and disability inclusion at grassroots, foster community resilience to eliminate female subjugation, exclusion, promote youth development, and ensure the sustainability of our solutions within each host community.
                 </p>
               </li>
             </ul>

@@ -91,7 +91,7 @@ const JoinHero = () => {
                 </div>
 
                 <div className="p-5">
-                  <Link href="/join" className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1">
+                  <Link href="/funding" className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1">
                     <span className="flex items-center justify-center">
                       Donate
                     </span>

@@ -178,7 +178,7 @@ const FundingForm = () => {
                 <p className='text-md'>{accountName}</p>
                 <p className='text-md font-semibold'>{bankName}</p>
                 <span className='text-xs'>Send payment reciepts to our <a href='#' className='text-teal-700 underline'>
-              WhatsApp Number</a> for verification</span>
+              <a href='mailto:Kachemyounginitiative@gmail.com' target='_blank' className='underline text-primary'>mail</a> address</a> for verification</span>
               </div>
     
               
