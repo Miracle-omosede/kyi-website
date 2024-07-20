@@ -172,7 +172,9 @@ const Partnership = () => {
                     />
                   </svg>
                 </span>
-                <span>Kachemyounginitiative@gmail.org</span>
+                <span>
+                  <a href="mailto:kachemyounginitiative@gmail.com">Kachemyounginitiative@gmail.com</a>
+                </span>
               </div>
               <div className="flex flex-row gap-5 items-center">
                 <span>
