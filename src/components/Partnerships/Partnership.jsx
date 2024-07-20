@@ -115,6 +115,16 @@ const Partnership = () => {
                 </a>
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex items-center justify-center w-full md:h-[400px] h-[200px]">
+                <a href="https://www.dirt-stainedroses.com/ " className="cursor-pointer" target="_blank">
+                <img
+                  src="https://miracle.sirv.com/kachem-young-initiative/DSR%20logo.JPG"
+                  className="object-cover md:h-[228px] md:w-[206px] w-[170px] flex items-center justify-center"
+                />
+                </a>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>
