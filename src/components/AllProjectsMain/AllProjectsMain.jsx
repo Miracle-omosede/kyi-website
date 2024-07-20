@@ -155,7 +155,7 @@ const AllProjectsMain = () => {
               CodeFusion
               </h1>
               <p className="md:text-[14px] text-[13px] tracking-wide">
-              {/* RUWOFI is an initiative that establishes sustainable agricultural enterprises led by rural women farmers... */}
+              This is a partnership program that provides online learning for tech enthusiasts to earn professional certifications.
               </p>
             </div>
 
