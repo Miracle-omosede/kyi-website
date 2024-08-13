@@ -1,7 +1,6 @@
 import React from "react";
 import DonateButton from "../DonateButton";
 import SubscribeNewsletter from "../SubscribeNewsletter";
-import 'boxicons'
 import Link from "next/link";
 
 const Footer = () => {

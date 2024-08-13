@@ -1,13 +1,15 @@
-"use client"
-import React, { useState } from 'react';
-import Footer from '../Footer/Footer';
+"use client";
+import React, { useState } from "react";
+import Footer from "../Footer/Footer";
 
 const FundingHero = () => {
   const [showModal, setShowModal] = useState(false);
-  const accountNumber = "1234567890"; // Replace with your actual account number
-  const accountName = "Kachem Young Initiative."; // Replace with your organization's name
+  const accountNumberPound = "0611451973"; // Replace with your actual account number
+  const accountNumberUsd = "0611451966"; // Replace with your actual account number
+  const accountNumberEuro = "0611451997"; // Replace with your actual account number
+  const accountName = "Nkechinyere Melva Uguru"; // Replace with your organization's name
 
-  const bankName = "Zenith Bank Plc.";
+  // const bankName = "Zenith Bank Plc.";
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,7 +17,7 @@ const FundingHero = () => {
   };
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(accountNumber);
+    navigator.clipboard.writeText(accountNumberPound, accountNumberEuro, accountNumberUsd);
     alert("Account number copied to clipboard");
   };
 
@@ -166,8 +168,8 @@ const FundingHero = () => {
           {/* Submit Buttons */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <button
-                      type="button"
-                      onClick={() => setShowModal(true)}
+              type="button"
+              onClick={() => setShowModal(true)}
               className="w-full transition ease-in-out inline-flex justify-center py-2 px-4 sm:px-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-[#097895] hover:bg-white hover:text-[#097895] hover:border-[#097895] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#097895]"
             >
               Donate
@@ -184,7 +186,8 @@ const FundingHero = () => {
 
         <div>
           <p className="text-[17px] md:text-[22px] mt-7  font-poppins">
-          For further enquiry about donations or to track the status of a donation made, please send us an email at {" "}
+            For further enquiry about donations or to track the status of a
+            donation made, please send us an email at{" "}
             <a
               href="mailto:kachemyounginitiative@gmail.com"
               target="_blank"
@@ -200,45 +203,166 @@ const FundingHero = () => {
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center font-poppins justify-center z-50">
           <div className="bg-white rounded-lg p-6 relative mx-5">
-            <button onClick={closeModal} className="absolute top-2 right-2 text-gray-500 hover:text-black">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
-</svg>
-
+            <button
+              onClick={closeModal}
+              className="absolute top-2 right-2 text-gray-500 hover:text-black"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
             </button>
-            <span className='flex border-secondary border p-3 gap-2 rounded-lg bg-[#09799528] text-xs items-center justify-center my-7'>
+            <span className="flex border-secondary border p-3 gap-2 rounded-lg bg-[#09799528] text-xs items-center justify-center my-7">
               <span>
                 {/* close button */}
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-red-700">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
-</svg>
-</span>
-              <span>sorry our payment gateway is temporarily down, but don&apos;t fret you can make transfer to account number below</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6 text-red-700"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"
+                  />
+                </svg>
+              </span>
+              <span>
+                sorry our payment gateway is temporarily down, but don&apos;t
+                fret you can make transfer to accounts below
+              </span>
             </span>
-            <h2 className="text-xl font-semibold mb-4 font-poppins">Account Information</h2>
-            <div className="flex items-center justify-between border-2 p-4 rounded-xl space-x-2 mb-4 cursor-pointer" onClick={handleCopy}>
-              <span className='text-secondary'>{accountNumber}</span>
-              <button  className="text-gray-500 hover:text-black">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184" />
-</svg>
+            <h2 className="text-xl font-semibold mb-4 font-poppins">
+              Account Information
+            </h2>
 
+            {/* USD Account */}
+           <div>
+           <h2 className="text-lg mb-4 font-poppins">
+              Account Name: <span>{accountName}</span><br/>
+              Bank: GTB-USD
+            </h2>
+            <div
+              className="flex items-center justify-between border-2 p-4 rounded-xl space-x-2 mb-4 cursor-pointer"
+              onClick={handleCopy}
+            > 
+              <span className="text-secondary">{accountNumberUsd}</span>
+              <button className="text-gray-500 hover:text-black">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184"
+                  />
+                </svg>
               </button>
             </div>
-            <p className='text-md'>{accountName}</p>
-            <p className='text-md font-semibold'>{bankName}</p>
-            <span className='text-xs'>Send payment reciepts to our <a href='#' className='text-teal-700 underline'>
-          WhatsApp Number</a> for verification</span>
-          </div>
+            </div>
 
-          
+            {/* USD Account End */}
+
+            {/* Euro Account */}
+            <div>
+           <h2 className="text-lg mb-4 font-poppins">
+              Account Name: <span>{accountName}</span><br/>
+              Bank: GTB-EURO
+            </h2>
+            <div
+              className="flex items-center justify-between border-2 p-4 rounded-xl space-x-2 mb-4 cursor-pointer"
+              onClick={handleCopy}
+            > 
+              <span className="text-secondary">{accountNumberEuro}</span>
+              <button className="text-gray-500 hover:text-black">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184"
+                  />
+                </svg>
+              </button>
+            </div>
+            </div>
+            {/* Euro Account Ends */}
+
+            {/* Pounds Account */}
+            <div>
+           <h2 className="text-lg mb-4 font-poppins">
+              Account Name: <span>{accountName}</span><br/>
+              Bank: GTB-POUND
+            </h2>
+            <div
+              className="flex items-center justify-between border-2 p-4 rounded-xl space-x-2 mb-4 cursor-pointer"
+              onClick={handleCopy}
+            > 
+              <span className="text-secondary">{accountNumberPound}</span>
+              <button className="text-gray-500 hover:text-black">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.666 3.888A2.25 2.25 0 0 0 13.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 0 1-.75.75H9a.75.75 0 0 1-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 0 1-2.25 2.25H6.75A2.25 2.25 0 0 1 4.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 0 1 1.927-.184"
+                  />
+                </svg>
+              </button>
+            </div>
+            </div>
+            {/* Pounds Account Ends */}
+            <span className="text-xs">
+              Send payment reciepts to our{" "}
+              
+                <a
+                  href="mailto:Kachemyounginitiative@gmail.com"
+                  target="_blank"
+                  className="underline text-primary"
+                >
+                  mail
+                </a>{" "}
+                address
+              
+              for verification
+            </span>
+          </div>
         </div>
       )}
 
-
-      <Footer/>
+      <Footer />
     </div>
   );
-}
+};
 
-export default FundingHero
+export default FundingHero;

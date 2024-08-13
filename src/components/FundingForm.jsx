@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 const FundingForm = () => {
     const [showModal, setShowModal] = useState(false);
     const accountNumberUSD = "1234567890"; // Replace with your actual account number
-    const accountName = "Nkechinyere Melva Uguru"; // Replace with your organization's name
+    // const accountName = "Nkechinyere Melva Uguru"; // Replace with your organization's name
   
-    const bankName = "Zenith Bank Plc.";
+    // const bankName = "Zenith Bank Plc.";
   
     const handleSubmit = (e) => {
       e.preventDefault();
