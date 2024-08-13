@@ -11,7 +11,7 @@ const AboutHeader = () => {
             Reconciling young minds to purpose.
           </h1>
           <p className="text-[17px] md:text-[22px] font-medium text-center font-poppins">
-            Through education, mentorship, and personal development, we strive
+          Through Education, Mentorship, and Personal Development programs, we strive
             to instill in young minds a sense of purpose and direction,
             equipping them with the knowledge, skills, and mindset needed to
             overcome challenges and make a lasting impact on their communities
