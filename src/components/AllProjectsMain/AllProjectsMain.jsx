@@ -134,32 +134,23 @@ const AllProjectsMain = () => {
               </p>
             </div>
 
-         
+            {/*  */}
           </div>
         </div> 
         </Link>
-        <Link href="/iwd">
+        <Link href="https://codefussion.tech/?fbclid=IwZXh0bgNhZW0CMTEAAR2AA_rtZjgNzDpJ_lLbd-AtysqI6mhRERcRgpdFRsBnMCzLqOX-UqdCP6c_aem_NqILzfqa5pCh3RbX3O76ag">
         <div className="flex flex-col md:px-0 px-5 gap-[31px] w-[350px] rounded-[8px] shadow-lg">
-        <div className="">
-            <div className="flex items-center justify-center w-full">
-            <div className="w-full h-[250px] bg-gray-300 object-cover rounded-[8px] flex items-center justify-center"> 
-                <button className='rounded-lg bg-primary text-white p-5'>
-                    Codefusion
-                </button>
+        <div className="flex items-center justify-center w-full">
+            <img src="https://miracle.sirv.com/kachem-young-initiative/codefusion_image.jpg" className="w-full h-[250px] object-cover rounded-[8px]" />
             </div>
-            </div>
-          </div>
           <div className="flex flex-col gap-10 md:gap-[15px] p-7">
             <div className="flex flex-col gap-[25px]">
               <h1 className="font-semibold text-[24px]">
               CodeFusion
               </h1>
               <p className="md:text-[14px] text-[13px] tracking-wide">
-              This is a partnership program that provides online learning for tech enthusiasts to earn professional certifications.
-              </p>
+              This partnership program for tech enthusiasts to learn and earn professional certifications, as well as to provide technical support and expert training for our “Girls That Code” Initiative</p>
             </div>
-
-         
           </div>
         </div> 
         </Link>

@@ -111,10 +111,7 @@ const Mission = () => {
               <div className="flex gap-[18px] flex-wrap md:flex-nowrap">
                 <div className="h-[210px] w-[360px] flex items-center justify-center px-[15px] py-[30px] bg-[#9747ff42] rounded-[8px] mx-auto ">
                   <p className="text-black font-poppins md:text-[16px] text-[16px] tracking-wide">
-                    <b className="font-bolder">Hope</b> is a fundamental principle in
-                    our operations. We recognize the importance of understanding the
-                    challenges faced by grassroots people and developing solutions
-                    that address their specific needs.
+                    <b className="font-bolder">Hope</b> is a fundamental principle in our operations. The stories of the past, the smiles of strength and resilience wielded for a better future, told by the eyes of those we serve, are the inspiration for what we do. 
                   </p>
                 </div>
                 <div className="h-[210px] md:block hidden">
@@ -169,10 +166,7 @@ const Mission = () => {
 
                 <div className="h-[210px] w-[360px] flex items-center justify-center px-[15px] py-[30px] bg-[#09799561] rounded-[8px] mx-auto ">
                   <p className="text-black font-poppins md:text-[16px] text-[16px] tracking-wide ">
-                    <b className="font-bolder">Sacrifice</b> is a fundamental
-                    principle in our operations. We recognize the importance of
-                    understanding the challenges faced by grassroots people and
-                    developing solutions that address their specific needs.
+                    Our journey is rooted in <b className="font-bolder">Sacrifice</b>. We understand that our freedom and peace are only complete when we leave no one behind, so we dedicate our time and skills to innovating community-oriented solutions.
                   </p>
                 </div>
               </div>
