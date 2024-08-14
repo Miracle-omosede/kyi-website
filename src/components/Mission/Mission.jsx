@@ -93,7 +93,7 @@ const Mission = () => {
                 Kachem Young Initiative is a non-profit NGO founded in 2017 to
                 administer community resilience towards solving problems of poverty
                 among grassroots people, devaluation of education especially girl
-                child education, female discrimination, and exclusion of persons
+                child education, female subjugation, and exclusion of persons
                 with disabilities in Ebonyi State. <br className="md:hidden block" />
                 <Link href="/about" className="text-primary">
                   Learn more
