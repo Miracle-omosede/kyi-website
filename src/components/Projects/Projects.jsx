@@ -39,7 +39,7 @@ const Projects = () => {
                 specific developmental project, accessible education and
                 healthcare.
                 <br />
-                <Link href="/allprojects" className="text-primary block md:hidden">
+                <Link href="/cdap" className="text-primary block md:hidden">
                   Learn more
                 </Link>
               </p>
@@ -49,7 +49,7 @@ const Projects = () => {
             <div className="flex">
               <div className="flex flex-row gap-[25px]">
                 <Link
-                  href="/join"
+                  href="/cdap"
                   className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                 >
                   <span className="flex items-center justify-center">
@@ -189,7 +189,7 @@ const Projects = () => {
             <div className="flex">
               <div className="flex flex-row gap-[25px]">
                 <Link
-                  href="/join"
+                  href="/literacyDrive"
                   className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                 >
                   <span className="flex items-center justify-center">
@@ -318,7 +318,7 @@ const Projects = () => {
               </h1>
               <p className="md:text-[18px] text-[16px] tracking-wide">
               At Kachem Young Initiative, we are dedicated to promoting basic health education and raising awareness about prevalent diseases in our community. Our team of healthcare and medical professionals is committed to improving the well-being of individuals by providing vital knowledge and services. <br />
-                <Link href="/allprojects" className="text-primary block md:hidden">
+                <Link href="/healthWelness" className="text-primary block md:hidden">
                   Learn more
                 </Link>
               </p>
@@ -328,7 +328,7 @@ const Projects = () => {
             <div className="flex">
               <div className="flex flex-row gap-[25px]">
                 <Link
-                  href="/join"
+                  href="/healthWelness"
                   className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                 >
                   <span className="flex items-center justify-center">
@@ -458,7 +458,7 @@ const Projects = () => {
               <p className="md:text-[18px] text-[16px] tracking-wide">
               Brave Voices is more than just a conference; it&apos;s a powerful platform that amplifies the voices of survivors of Gender-based Violence/Intimate Partner Violence (GBV/IPV) who happen to be persons with disabilities.
 <br />
-                <Link href="/allprojects" className="text-primary block md:hidden">
+                <Link href="/bravevoices" className="text-primary block md:hidden">
                   Learn more
                 </Link>
               </p>
@@ -468,7 +468,7 @@ const Projects = () => {
             <div className="flex">
               <div className="flex flex-row gap-[25px]">
                 <Link
-                  href="/join"
+                  href="/bravevoices"
                   className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                 >
                   <span className="flex items-center justify-center">
@@ -598,7 +598,7 @@ const Projects = () => {
               <p className="md:text-[18px] text-[16px] tracking-wide">
                 RUWOFI is an initiative that establishes sustainable agricultural enterprises led by rural women farmers under the organizations resgistered cooperatives to empower rural women financially, and to give them economic edge while solving the problem of food insecuruty.
               <br />
-                <Link href="/allprojects" className="text-primary block md:hidden">
+                <Link href="/iwd" className="text-primary block md:hidden">
                   Learn more
                 </Link>
               </p>
@@ -608,7 +608,7 @@ const Projects = () => {
             <div className="flex">
               <div className="flex flex-row gap-[25px]">
                 <Link
-                  href="/join"
+                  href="/iwd"
                   className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                 >
                   <span className="flex items-center justify-center">
@@ -738,7 +738,7 @@ const Projects = () => {
               <p className="md:text-[18px] text-[16px] tracking-wide">
               This partnership program for tech enthusiasts to learn and earn professional certifications, as well as to provide technical support and expert training for our “Girls That Code” Initiative.
               <br />
-                <Link href="/allprojects" className="text-primary block md:hidden">
+                <Link href="https://codefussion.tech/?fbclid=IwZXh0bgNhZW0CMTEAAR2AA_rtZjgNzDpJ_lLbd-AtysqI6mhRERcRgpdFRsBnMCzLqOX-UqdCP6c_aem_NqILzfqa5pCh3RbX3O76ag" className="text-primary block md:hidden">
                   Learn more
                 </Link>
               </p>
@@ -748,7 +748,7 @@ const Projects = () => {
             <div className="flex">
               <div className="flex flex-row gap-[25px]">
                 <Link
-                  href="/join"
+                  href="https://codefussion.tech/?fbclid=IwZXh0bgNhZW0CMTEAAR2AA_rtZjgNzDpJ_lLbd-AtysqI6mhRERcRgpdFRsBnMCzLqOX-UqdCP6c_aem_NqILzfqa5pCh3RbX3O76ag"
                   className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
                 >
                   <span className="flex items-center justify-center">

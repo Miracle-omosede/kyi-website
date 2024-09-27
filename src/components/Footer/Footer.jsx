@@ -80,13 +80,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/allproject">
+                <Link href="/allprojects">
                   Projects
                 </Link>
               </li>
               <li>
                 <Link href="/gallery">
                   Gallery
+                </Link>
+              </li>
+              <li>
+                <Link href="https://medium.com/@kachemyounginitiative">
+                  Blogs
                 </Link>
               </li>
             </ul>

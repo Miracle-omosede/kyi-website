@@ -104,6 +104,13 @@ const Navbar = () => {
                       </span>
                     </Link>
                   </li>
+                  <li className="capitalize font-bold hover:text-primary transition-all delay-100 ease-in-out">
+                    <Link href="https://medium.com/@kachemyounginitiative">
+                      <span>
+                        <a href="https://medium.com/@kachemyounginitiative">Blog</a>
+                      </span>
+                    </Link>
+                  </li>
                 </ul>
               </nav>
              
@@ -117,8 +124,8 @@ const Navbar = () => {
 
                 <div className="flex justify-between items-center">
                 <div className="flex flex-row gap-2 text-sm font-poppins">
-                  <a href="#" className="link underline tracking-wide">Call Us</a>
-                  <a href="#" className="link underline tracking-wide">Email Us</a>
+                  <a href="tel:+2348149986675" className="link underline tracking-wide">Call Us</a>
+                  <a href="mailto:kachemyounginitiative@gmail.com" className="link underline tracking-wide">Email Us</a>
                 </div>
 
                 <div>

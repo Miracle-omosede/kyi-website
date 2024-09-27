@@ -34,7 +34,7 @@ const Mission = () => {
       onExit={() => setCounterOn(false)}
     >
       <div>
-        <div className="pt-[5rem] md:px-0 px-5 md:pt-[147px] max-w-[1140px] w-full mx-auto flex flex-col gap-[104px]">
+        <div className="pt-[5rem] md:px-0 px-5 md:pt-[147px] max-w-[1140px] w-full mx-auto flex flex-col gap-[70px]">
           <div>
             <p className="text-black text-[16px] md:text-[26px] text-center font-poppins md:font-medium ">
               To advocate for and exemplify equitable, skill-based education that
